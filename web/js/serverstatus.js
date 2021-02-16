@@ -419,7 +419,7 @@ function updateTime() {
 
 uptime();
 updateTime();
-setInterval(uptime, 5000);
+setInterval(uptime, 1000);
 setInterval(updateTime, 500);
 
 
