@@ -655,9 +655,9 @@ Install_caddy(){
 		if [[ ! -s "/usr/local/caddy/Caddyfile" ]]; then
 			cat > "/usr/local/caddy/Caddyfile"<<-EOF
 http://${server_s}:${server_http_port_s} {
- root ${web_file}
- timeouts none
- gzip
+ root * ${web_file}
+ encode gzip
+ file_server
 }
 EOF
 			/etc/init.d/caddy restart
@@ -1024,7 +1024,7 @@ esac
 }
 menu_server(){
 echo && echo -e "  ServerStatus 一键安装管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-  -- Toyo | doub.io/shell-jc3 --
+  -- Threexing | by threexing.tk  --
   
  ${Green_font_prefix} 0.${Font_color_suffix} 升级脚本
  ————————————
