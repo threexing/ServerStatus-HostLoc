@@ -87,7 +87,7 @@ bash status.sh s
 
 ``` bash
 ServerStatus 一键安装管理脚本 [vx.x.x]
--- Threexing | by threexing.tk --
+-- Threexing | by Threexing --
  
 0. 升级脚本
 ————————————
