@@ -87,7 +87,7 @@ bash status.sh s
 
 ``` bash
 ServerStatus 一键安装管理脚本 [vx.x.x]
--- Toyo | doub.io/shell-jc3 --
+-- Threexing | by threexing.tk --
  
 0. 升级脚本
 ————————————
