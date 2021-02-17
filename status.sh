@@ -346,7 +346,7 @@ Set_type(){
 	echo "	================================================" && echo
 }
 Set_location(){
-	echo -e "请输入 ServerStatus 服务端要设置的节点位置[location]（ 英 文 简 写）"
+	echo -e "请输入 ServerStatus 服务端要设置的节点位置[location]（ 英 文 简 写 ）"
 	read -e -p "(默认: HK):" location_s
 	[[ -z "$location_s" ]] && location_s="HK"
 	echo && echo "	================================================"
