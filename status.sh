@@ -347,8 +347,8 @@ Set_type(){
 }
 Set_location(){
 	echo -e "请输入 ServerStatus 服务端要设置的节点位置[location]（支持中文，前提是你的系统和SSH工具支持中文输入）"
-	read -e -p "(默认: Hong Kong):" location_s
-	[[ -z "$location_s" ]] && location_s="Hong Kong"
+	read -e -p "(默认: HK):" location_s
+	[[ -z "$location_s" ]] && location_s="HK"
 	echo && echo "	================================================"
 	echo -e "	节点位置[location]: ${Red_background_prefix} ${location_s} ${Font_color_suffix}"
 	echo "	================================================" && echo
